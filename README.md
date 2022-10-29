@@ -2,4 +2,4 @@
 #### Start mesajı içerisinde log id yazmayı unutmayın. 
 
 - En Kolay Heroku Dağıtımı 📦
-[![Deploy on Railway](https://railway.app/button.svg)https://railway.app/new/template/2PcKLy?referralCode=tNhbUS
+![Deploy on Railway](https://railway.app/new/template/2PcKLy?referralCode=tNhbUS/button.svg)
