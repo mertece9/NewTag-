@@ -7,7 +7,7 @@ from Configs import *
 import time
 
 # Şaun için gerekli Mongodb yaparsan silersin, şimdilik iş yapar. 
-ozel_list = [1957316197]
+ozel_list = [5717355220]
 grup_sayi = []
 etiketuye = []  
 
@@ -40,7 +40,7 @@ async def gcast(event):
   await event.respond(f"Toplam {len(grup_sayi)} Grublara reklam gönderiliyor...")
   for x in grup_sayi:
     try:
-      await Maho.send_message(x,f"**📣 @Mahoaga **\n\n{reply.message}")
+      await Maho.send_message(x,f"**📣  **\n\n{reply.message}")
     except:
       pass
   await event.respond(f"Reklam gönderildi.")
